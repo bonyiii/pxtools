@@ -7,12 +7,14 @@ Pxtools is written from scratch and has no external dependencies.
 [pxtools]: http://jan.kneschke.de/projects/pxtools/
 
 Copy paste how to:
+    mkdir -p /usr/local/portage
+
     # clone the GIT repository
     git clone git://github.com/bonyiii/pxtools.git /usr/local/portage/dev-db
 
     # add the overlay to your make.conf
     cat >> /etc/make.conf <<\EOF
-    PORTDIR_OVERLAY="${PORTDIR_OVERLAY} /usr/local/portage/dev-db"
+    PORTDIR_OVERLAY="${PORTDIR_OVERLAY} /usr/local/portage"
     EOF
 
     # install pxtools
