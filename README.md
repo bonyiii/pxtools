@@ -7,7 +7,7 @@ Pxtools is written from scratch and has no external dependencies.
 [pxtools]: http://jan.kneschke.de/projects/pxtools/
 
 Copy paste how to:
-
+<pre><code>
   # clone the GIT repository
   git clone git://github.com/bonyiii/pxtools.git /usr/local/portage/dev-db
 
@@ -18,3 +18,4 @@ Copy paste how to:
 
   # install pxtools
   emerge -av pxtools
+</code></pre>
