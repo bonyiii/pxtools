@@ -10,7 +10,7 @@ Copy paste how to:
     mkdir -p /usr/local/portage
 
     # clone the GIT repository
-    git clone git://github.com/bonyiii/pxtools.git /usr/local/portage/dev-db
+    git clone git://github.com/bonyiii/pxtools.git /usr/local/portage
 
     # add the overlay to your make.conf
     cat >> /etc/make.conf <<\EOF
