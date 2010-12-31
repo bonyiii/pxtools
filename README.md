@@ -6,7 +6,8 @@ Pxtools is written from scratch and has no external dependencies.
 
 [pxtools]: http://jan.kneschke.de/projects/pxtools/
 
-Copy paste how to 
+Copy paste how to:
+
   # clone the GIT repository
   git clone git://github.com/bonyiii/pxtools.git /usr/local/portage/dev-db
 
