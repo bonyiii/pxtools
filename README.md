@@ -22,10 +22,10 @@ Copy paste how to:
 
 Useage example :
 
-   #!/bin/bash
-   # enca -L hungarian FILE.name
+    #!/bin/bash
+    # enca -L hungarian FILE.name
 
-   for FILE in `find .  -name "*.DB"`
-   do
-     pxcsvdump -f $FILE -D \| | iconv -f IBM852 -t cp1250 | tr "ß" "á"  > `echo "$FILE" | sed -e 's/DB/csv/' | tr "[:upper:]" "[:lower:]"`
-   done
+    for FILE in `find .  -name "*.DB"`
+    do
+      pxcsvdump -f $FILE -D \| | iconv -f IBM852 -t cp1250 | tr "ß" "á"  > `echo "$FILE" | sed -e 's/DB/csv/' | tr "[:upper:]" "[:lower:]"`
+    done
